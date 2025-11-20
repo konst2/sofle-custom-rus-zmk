@@ -12,8 +12,5 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: zmk-lang-switch
-      remote: konst2
-      revision: main
   self:
     path: config
