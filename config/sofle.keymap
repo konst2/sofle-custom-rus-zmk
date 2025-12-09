@@ -64,7 +64,7 @@
                 &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
             sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
             >;
         };
 
@@ -95,7 +95,7 @@
                 &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE   &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
            sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
             >;
           };
 
@@ -126,7 +126,7 @@
                       &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
            sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
             >;
           };
 
@@ -156,7 +156,7 @@
                 &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
            sensor-bindings = <
-                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_UP PG_DN
+                                      &inc_dec_kp C_VOL_DN C_VOL_UP   &inc_dec_kp PG_DN PG_UP
             >;
           };
 
