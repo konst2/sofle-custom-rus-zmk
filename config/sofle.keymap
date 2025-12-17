@@ -87,7 +87,7 @@
 //
             bindings = <
 
-&kp ESC    &kp N1    &kp N2    &kp N3   &kp N4    &kp N5                             &kp N6   &kp N7    &kp N8    &kp N9    &kp N0    &kp BSPC
+&kp ESC    &kp N1    &en N2    &en N3   &en N4    &kp N5                             &en N6   &en N7    &kp N8    &kp N9    &kp N0    &kp BSPC
 &kp TAB    &kp RU_J  &kp RU_TS &kp RU_U &kp RU_K  &kp RU_JE                          &kp RU_N &kp RU_G  &kp RU_SH &kp RU_SC &kp RU_Z  &kp RU_H
 &kp RU_JO  &kp RU_F  &kp RU_Y  &kp RU_V &kp RU_A  &kp RU_P                           &kp RU_R &kp RU_O  &kp RU_L  &kp RU_D  &kp RU_ZH &kp RU_E
 &kp LSHFT  &kp RU_JA &kp RU_CH &kp RU_S &kp RU_M  &kp RU_I  &kp C_MUTE   &tog RAISE  &kp RU_T &kp RU_SF &kp RU_B  &kp RU_JU &kp RU_HD &kp RSHFT
@@ -118,10 +118,10 @@
 //
             bindings = <
 
-&kp ESC    &kp EXCL  &kp AT   &kp HASH      &kp DLLR  &kp PRCNT                         &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TAB    &kp QMARK &none    &kp HASH      &kp APOS  &kp LPAR                          &kp RPAR  &kp DOT   &kp PLUS  &kp MINUS &kp PIPE  &kp DQT
-&kp GRAVE  &kp TILDE &none    &kp COLON     &kp DQT   &kp LBRC                          &kp RBRC  &kp COMMA &kp EQUAL &kp UNDER &kp BSLH  &kp APOS
-&kp LSHFT  &none     &none    &kp SEMICOLON &kp LT    &kp LBKT &kp C_MUTE   &tog RAISE  &kp RBKT  &kp GT    &kp COMMA &kp DOT   &kp SLASH &kp RSHFT
+&kp ESC    &kp EXCL  &en AT   &en HASH      &en DLLR  &kp PRCNT                         &en CARET &en AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
+&kp TAB    &en QMARK &none    &ru HASH      &en APOS  &kp LPAR                          &kp RPAR  &en DOT   &kp PLUS  &kp MINUS &en PIPE  &en DQT
+&en GRAVE  &en TILDE &none    &en COLON     &en DQT   &en LBRC                          &en RBRC  &en COMMA &kp EQUAL &kp UNDER &kp BSLH  &en APOS
+&kp LSHFT  &none     &none    &en SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT    &en COMMA &en DOT   &en SLASH &kp RSHFT
 
                       &mo LOWER  &kp LCTRL  &kp LALT  &kp LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &kp RGUI  &kp RCTRL    
             >;
