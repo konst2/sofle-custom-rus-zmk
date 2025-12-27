@@ -43,6 +43,10 @@
             ignore-modifiers;
         };
 
-
+        // использовать вместо &kp для модификаторов которые при удерживании должны работать только с английской раскладкой
+        km: mod_press_with_counter {
+            compatible = "zmk,behavior-modifier-press";
+            #binding-cells = <1>;
+        };
     };
 };
