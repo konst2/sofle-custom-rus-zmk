@@ -47,6 +47,10 @@
         km: mod_press_with_counter {
             compatible = "zmk,behavior-modifier-press";
             #binding-cells = <1>;
+            // Коды клавиш  F17-переключение на EN F18 = переключение на RU
+            bindings = <&kp F17>, <&kp F18>;
+            en_layer = <ENGLISH>;
+            ru_layer = <RUSSIAN>;
         };
     };
 };
