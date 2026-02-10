@@ -10,7 +10,7 @@ manifest:
       url-base: https://github.com/konst2
   projects:
     - name: zmk
-      # revision: v0.3.0
+      revision: v0.3.0
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-lang-switch
