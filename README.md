@@ -30,6 +30,9 @@ RGB-подсветка и OLED-дисплей не поддерживаются 
 - резисторы определения стороны клавиатуры  
 - микросхемы USBLC6-2SC6  
 
+![Клавиатура](sofle_zmk.jpg)
+
+
 ## Возможности прошивки
 
 ### Умное переключение раскладки (плагин [zmk-lang-agnostic-behaviors](https://github.com/konst2/zmk-lang-agnostic-behaviors) + Karabiner / AutoHotkey)
