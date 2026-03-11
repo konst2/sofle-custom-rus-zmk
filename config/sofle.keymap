@@ -113,7 +113,7 @@
 // |------+------+------+------+------+------|                    |------+------+------+------+------+------|
 // |   `  |   ~  |      |   :  |   "  |   {  |-------.    ,-------|   }  |   ,  |   =  |   _  |   \  |   '  |
 // |------+------+------+------+------+------|  MUTE |    |       |------+------+------+------+------+------|
-// | Shift|      |      |   ;  |   <  |   [  |-------|    |-------|   ]  |   >  |   ,  |   .  |   /  | Shift|
+// | Shift|   `  |      |   ;  |   <  |   [  |-------|    |-------|   ]  |   >  |   ,  |   .  |   /  | Shift|
 // `-----------------------------------------/       /     \      \-----------------------------------------'
 //            | LOWER| CTR  |  Alt |  GUI | / Bspc  /       \RU/EN \  | RAISE|Enter |  GUI |  CTR |
 //            |      |      |      |      |/       /         \      \ |      |      |      |      |
@@ -124,7 +124,7 @@
 &kp ESC    &kp EXCL  &en AT   &en HASH      &en DLLR  &kp PRCNT                         &en CARET &en AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
 &kp TAB    &en QMARK &none    &ru HASH      &en APOS  &kp LPAR                          &kp RPAR  &en DOT   &kp PLUS  &kp MINUS &en PIPE  &en DQT
 &en GRAVE  &en TILDE &none    &en COLON     &en DQT   &en LBRC                          &en RBRC  &en COMMA &kp EQUAL &kp UNDER &kp BSLH  &en APOS
-&ss LSHFT  &none     &none    &en SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT    &en COMMA &en DOT   &en SLASH &ss RSHFT
+&ss LSHFT  &en GRAVE &none    &en SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT    &en COMMA &en DOT   &en SLASH &ss RSHFT
 
                       &mo LOWER  &km LCTRL  &km LALT  &km LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &km RGUI  &km RCTRL    
             >;
