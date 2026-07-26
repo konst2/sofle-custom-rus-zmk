@@ -121,10 +121,10 @@
 //
             bindings = <
 
-&kp ESC    &kp EXCL  &en AT   &en HASH      &en DLLR  &kp PRCNT                         &en CARET &en AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TAB    &en QMARK &none    &ru HASH      &en APOS  &kp LPAR                          &kp RPAR  &en DOT   &kp PLUS  &kp MINUS &en PIPE  &en DQT
-&en GRAVE  &en TILDE &none    &en COLON     &en DQT   &en LBRC                          &en RBRC  &en COMMA &kp EQUAL &kp UNDER &kp BSLH  &en APOS
-&ss LSHFT  &en GRAVE &none    &en SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT    &en COMMA &en DOT   &en SLASH &ss RSHFT
+&kp ESC    &kp EXCL   &en AT   &en HASH       &en DLLR  &kp PRCNT                         &en CARET &en AMPS   &kp STAR   &kp LPAR  &kp RPAR   &kp BSPC
+&kp TAB    &agn QMARK &none    &ru HASH       &en APOS  &kp LPAR                          &kp RPAR  &agn DOT   &kp PLUS   &kp MINUS &en PIPE   &agn DQT
+&en GRAVE  &en TILDE  &none    &agn COLON     &agn DQT  &en LBRC                          &en RBRC  &agn COMMA &kp EQUAL  &kp UNDER &kp BSLH   &en APOS
+&ss LSHFT  &en GRAVE  &none    &agn SEMICOLON &en LT    &en LBKT &kp C_MUTE   &tog RAISE  &en RBKT  &en GT     &agn COMMA &agn DOT  &agn SLASH &ss RSHFT
 
                       &mo LOWER  &km LCTRL  &km LALT  &km LGUI  &kp BSPC    &ls NEXT  &mo RAISE  &kp RET   &km RGUI  &km RCTRL    
             >;
@@ -227,17 +227,17 @@
         combo_r43 {
             timeout-ms = <30>;
             key-positions = <46 47>;
-            bindings = <&en COMMA>;
+            bindings = <&agn COMMA>;
         };
         combo_r44 {
             timeout-ms = <30>;
             key-positions = <47 48>;
-            bindings = <&en DOT>;
+            bindings = <&agn DOT>;
         };
         combo_r45 {
             timeout-ms = <30>;
             key-positions = <48 49>;
-            bindings = <&en SLASH>;
+            bindings = <&agn SLASH>;
         };
 
         // ------ right row 3
@@ -249,7 +249,7 @@
         combo_r32 {
             timeout-ms = <30>;
             key-positions = <31 32>;
-            bindings = <&en COMMA>;
+            bindings = <&agn COMMA>;
         };
         combo_r33 {
             timeout-ms = <30>;
@@ -277,7 +277,7 @@
         combo_r22 {
             timeout-ms = <30>;
             key-positions = <19 20>;
-            bindings = <&en DOT>;
+            bindings = <&agn DOT>;
         };
         combo_r23 {
             timeout-ms = <30>;
@@ -336,7 +336,7 @@
         combo_l43 {
             timeout-ms = <30>;
             key-positions = <38 39>;
-            bindings = <&en SEMICOLON>;
+            bindings = <&agn SEMICOLON>;
         };
         combo_l44 {
             timeout-ms = <30>;
@@ -363,12 +363,12 @@
         combo_l33 {
             timeout-ms = <30>;
             key-positions = <26 27>;
-            bindings = <&en COLON>;
+            bindings = <&agn COLON>;
         };
         combo_l34 {
             timeout-ms = <30>;
             key-positions = <27 28>;
-            bindings = <&en DQT>;
+            bindings = <&agn DQT>;
         };
         combo_l35 {
             timeout-ms = <30>;
