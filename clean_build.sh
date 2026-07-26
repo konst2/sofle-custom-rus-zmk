@@ -9,6 +9,9 @@ CONFIG_DIR="$BASE_DIR/sofle-custom-rus-zmk"
 BUILD_DIR="$CONFIG_DIR/_builds"
 LANG_SWITCH_MODULE="$BASE_DIR/zmk-lang-agnostic-behaviors"
 
+# west и cmake 3
+. ~/.virtualenvs/zmk/bin/activate
+
 # Создаем папку для сборок если не существует
 mkdir -p "$BUILD_DIR"
 
