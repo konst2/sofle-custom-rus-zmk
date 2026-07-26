@@ -33,6 +33,17 @@
             language = <RUSSIAN>;
         };
 
+        // разобраться, где на клавиатуре этот символ в зависимости от текущей раскладки
+        // и нажать его именно там, без переключения раскладки в системе
+        // использовать только для символов которые переезжают на другую клавишу
+        // в русской раскладке, типа ".", "?" и т.д.
+        agn: ru_agnostic {
+            compatible = "zmk,behavior-ru-agnostic";
+            #binding-cells = <1>;
+            en_layer = <ENGLISH>;
+            ru_layer = <RUSSIAN>;
+        }
+
         // залипание -- если была нажата и быстро отпущена клавиша -- используется для shift
         ss: sticky_key_quick_release {
             compatible = "zmk,behavior-sticky-key";

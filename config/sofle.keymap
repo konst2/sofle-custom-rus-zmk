@@ -380,7 +380,7 @@
         combo_l21 {
             timeout-ms = <30>;
             key-positions = <12 13>;
-            bindings = <&en QUESTION>;
+            bindings = <&agn QUESTION>;
         };
         combo_l22 {
             timeout-ms = <30>;
