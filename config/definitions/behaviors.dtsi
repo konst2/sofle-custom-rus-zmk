@@ -42,7 +42,7 @@
             #binding-cells = <1>;
             en_layer = <ENGLISH>;
             ru_layer = <RUSSIAN>;
-        }
+        };
 
         // залипание -- если была нажата и быстро отпущена клавиша -- используется для shift
         ss: sticky_key_quick_release {
